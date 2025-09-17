@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useState } from 'react'
 import { createPost } from '../api/posts.js'
@@ -26,6 +27,14 @@ export function CreatePost() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
+=======
+export function CreatePost() {
+  return (
+    <form onSubmit={(e) => e.preventDefault()}>
+      <div>
+        <label htmlFor='create-title'>Title: </label>
+        <input type='text' name='create-title' id='create-title' />
+>>>>>>> e8bf417e (chore: added UI)
       </div>
       <br />
       <div>
@@ -35,6 +44,7 @@ export function CreatePost() {
           name='create-author'
           id='create-
 author'
+<<<<<<< HEAD
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
@@ -57,6 +67,15 @@ author'
           Post created successfully!
         </>
       ) : null}
+=======
+        />
+      </div>
+      <br />
+      <textarea />
+      <br />
+      <br />
+      <input type='submit' value='Create' />
+>>>>>>> e8bf417e (chore: added UI)
     </form>
   )
 }
