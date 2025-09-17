@@ -5,6 +5,7 @@ export const getPosts = async (queryParams) => {
   )
   return await res.json()
 }
+<<<<<<< HEAD
 
 export const createPost = async (post) => {
   const res = await fetch(
@@ -18,3 +19,5 @@ posts`,
   )
   return await res.json()
 }
+=======
+>>>>>>> 84cbbf65 (chore: add TanStack)

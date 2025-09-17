@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84cbbf65 (chore: add TanStack)
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Blog } from './Blog.jsx'
 const queryClient = new QueryClient()
 
+<<<<<<< HEAD
 export function App() {
   return (
 <<<<<<< HEAD
@@ -60,5 +64,12 @@ export function App() {
       <PostList posts={posts} />
     </div>
 >>>>>>> e8bf417e (chore: added UI)
+=======
+export function App() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Blog />
+    </QueryClientProvider>
+>>>>>>> 84cbbf65 (chore: add TanStack)
   )
 }
