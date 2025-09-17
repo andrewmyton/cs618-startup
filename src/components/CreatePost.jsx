@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc4cbd51 (chore: end ch4)
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useState } from 'react'
 import { createPost } from '../api/posts.js'
